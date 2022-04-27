@@ -1,0 +1,20 @@
+{
+  "name": "tediousjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "prepared.js",
+  "scripts": {
+    "start": "set DEBUG=app & nodemon prepared.js",
+    "debug": "set DEBUG=app & nodemon prepared.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tedious": "^14.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
